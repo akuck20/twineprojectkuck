@@ -10,15 +10,28 @@
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play donotpassgo.</tw-noscript></noscript></tw-story>
 <tw-storydata name="donotpassgo" startnode="1" creator="Twine" creator-version="2.6.2" format="Harlowe" format-version="3.3.5" ifid="3F871D90-A294-4AE1-84E6-16A2DB52BFC3" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">body, tw-story {
-  background-color: #FFF5EE;
-    color: #696969;
+  background-color: #231f20;
+    color: #f8f8ff;
     font-family: 'Georgia', serif;
     font-size: 20px;
 }
 
 tw-link, .enchantment-link {
-  color: #191970;
-}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="beginning" tags="" position="100,325" size="100,100">[[begin|page1]]</tw-passagedata><tw-passagedata pid="2" name="page1" tags="" position="275,200" size="100,100">You are a third year college student! Congratulations!
+  color: #b0c4de;
+}
+
+tw-story[tags~="begin"] {
+  background-image:
+    url("https://akuck20.github.io/twineprojectkuck/images/intro.gif");
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+body, tw-story {
+ text-align:center
+}
+</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="beginning" tags="begin" position="100,325" size="100,100">
+[[BEGIN|page1]]</tw-passagedata><tw-passagedata pid="2" name="page1" tags="" position="275,200" size="100,100">You are a third year college student! Congratulations!
 
 &lt;insert progress bar
 
