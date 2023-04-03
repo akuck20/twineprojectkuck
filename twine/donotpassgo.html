@@ -35,7 +35,7 @@ body, tw-story {
 (set: $day to 0)
 (set: $comment to (random: 1, 3))
 (set: $dish to (random: 1,3))
-}</tw-passagedata><tw-passagedata pid="3" name="landing" tags="" position="200,225" size="100,100">Congratulations! You are a third year college student!
+}</tw-passagedata><tw-passagedata pid="3" name="landing" tags="" position="850,600" size="100,100">Congratulations! You are a third year college student!
 
 DEGREE PROGRESS:
 &lt;body&gt;
@@ -43,19 +43,21 @@ DEGREE PROGRESS:
 &lt;/body&gt;
 
 Your day begins like any average (if:$day is 0)[Monday](if:$day is 1)[Tuesday](if:$day is 2)[Wednesday](if:$day is 3)[Thursday](if:$day is 4)[Friday](if:$day is 5)[Saturday](if:$day &gt;=6)[Sunday]. You can go get some work done at the [[library]] or get food at the [[dining hall|dininghall]].
-</tw-passagedata><tw-passagedata pid="4" name="library" tags="" position="250,75" size="100,100">You head to the library, hoping to get a bit of work out of the way. As you enter, you spot your friend, Logan, sitting near a nice window.
+</tw-passagedata><tw-passagedata pid="4" name="library" tags="" position="250,100" size="100,100">You head to the library, hoping to get a bit of work out of the way. As you enter, you spot your friend, Logan, sitting near a nice window.
 
+&lt;body&gt;
+&lt;img src=&quot;https://akuck20.github.io/twineprojectkuck/images/logan.png&quot;&gt;
+&lt;/body&gt;
 Do you [[go ask to join him|invitation]] or [[find your own table|quiet]]?</tw-passagedata><tw-passagedata pid="5" name="dininghall" tags="" position="225,400" size="100,100">You head to the dining hall for a filling (if rather bland) meal. While you search for a table, you spot your friend, Hannah.
 
-&lt;img src
-
+&lt;body&gt;
+&lt;img src=&quot;https://akuck20.github.io/twineprojectkuck/images/hannah.png&quot;&gt;
+&lt;/body&gt;
 You have always had a bit of a crush on Hannah. She&#39;s smart, funny, and way cooler than you. But you&#39;ve never had the nerve to actually ask her on a date, and every time you talk to her alone you say something weird. 
 
-Do you [[join Hannah|eatwithhannah]] or [[wave hello, but go sit alone|sitalone]]?</tw-passagedata><tw-passagedata pid="6" name="eatwithhannah" tags="" position="375,500" size="100,100">Each day you wake up older and wiser, so sitting with Hannah won&#39;t be too bad, right?
+Do you [[join Hannah|eatwithhannah]] or [[wave hello, but go sit alone|sitalone]]?</tw-passagedata><tw-passagedata pid="6" name="eatwithhannah" tags="" position="325,525" size="100,100">Each day you wake up older and wiser, so sitting with Hannah won&#39;t be too bad, right?
 
 You take your tray of mediocre food over to the small table Hannah has claimed. She smiles as you sit down.
-
-&lt;img
 
 Hannah: Hey, how are you doing?
 
@@ -65,17 +67,17 @@ Hannah: Ha, I totally feel that.
 
 You sit in silence for a bit, munching on your respective plates. Suddenly, you feel as though you have the confidence to ask her out. Maybe on a real date? Anywhere but this dining hall, right? You have to act on this before you lose your nerve.
 
-Do you [[ask her out|askherout]] or [[let the moment pass|themomentpasses]]?</tw-passagedata><tw-passagedata pid="7" name="sitalone" tags="" position="100,500" size="100,100">Sitting with Hannah was an intimidating prospect you were not prepared to face. You gave her a small smile and wave, but went to sit alone to eat your mediocre dining hall food. 
+Do you [[ask her out|askherout]] or [[let the moment pass|themomentpasses]]?</tw-passagedata><tw-passagedata pid="7" name="sitalone" tags="" position="25,525" size="100,100">Sitting with Hannah was an intimidating prospect you were not prepared to face. You give her a small smile and wave, but go to sit alone to eat your mediocre dining hall food. 
 
-You dug into your plate half-heartedly, scrolling through a social media app as you shoveled food into your mouth. Mm, sustenence. Unfortunately, it was difficult to enjoy the cute dog videos on your feed when you kept thinking about all of the work you had to get done tonight.
+You dig into your plate half-heartedly, scrolling through a social media app as you shovel food into your mouth. Mm, sustenence. Unfortunately, it was difficult to enjoy the cute dog videos on your feed when you kept thinking about all of the work you had to get done tonight.
 
-After eating, you decided to head back to your dorm to [[work]].</tw-passagedata><tw-passagedata pid="8" name="work" tags="" position="125,625" size="100,100">You sit at the desk in your dorm room, slowly working through your math homework. Why did you decide taking calculus was a good idea?
+After eating, you decide to head back to your dorm to [[work]].</tw-passagedata><tw-passagedata pid="8" name="work" tags="" position="25,675" size="100,100">You sit at the desk in your dorm room, slowly working through your math homework. Why did you decide taking calculus was a good idea?
 
 You aren&#39;t sure if it&#39;s the dim light of your desk lamp or the cramping in your legs, but you are miserable and tired. Despite having a relatively uneventful day, all you can think about is crawling in bed.
 
-You decide calculus can wait until tomorrow morning. You put your notebook and laptop away, change into your pajamas, and [[crawl under the covers|sleep]].</tw-passagedata><tw-passagedata pid="9" name="sleep" tags="" position="0,600" size="100,100">You sleep fitfully. Every couple hours, you wake up and see your digital alarm clock slowly advancing, and in between those moments, your dreams are strange. You dream of your home, and your parents are lecturing you on curfew as if you were thirteen. You dream of your freshman year dorm, where your old roommate is working on an endless puzzle. You dream of a large field of tall grass, and you walk among the stalks, carefree.
+You decide calculus can wait until tomorrow morning. You put your notebook and laptop away, change into your pajamas, and [[crawl under the covers|sleep]].</tw-passagedata><tw-passagedata pid="9" name="sleep" tags="" position="25,825" size="100,100">You sleep fitfully. Every couple hours, you wake up and see your digital alarm clock slowly advancing, and in between those moments, your dreams are strange. You dream of your home, and your parents are lecturing you on curfew as if you were thirteen. You dream of your freshman year dorm, where your old roommate is working on an endless puzzle. You dream of a large field of tall grass, and you walk among the stalks, carefree.
 
-You finally open your eyes with the sound of your alarm, and you [[wake up|landing]]. (set: $day to it +1)</tw-passagedata><tw-passagedata pid="10" name="themomentpasses" tags="" position="250,550" size="100,100">As you watch Hannah eat her sad-looking arugula, the confidence you felt fades away. Hannah asks you about classes, you respond with as much positivity as you can muster, and after a dull conversation about the food quality, you feel the awkwardness setting in.
+You finally open your eyes with the sound of your alarm, and you [[wake up|landing]]. (set: $day to it +1)</tw-passagedata><tw-passagedata pid="10" name="themomentpasses" tags="" position="175,600" size="100,100">As you watch Hannah eat her sad-looking arugula, the confidence you felt fades away. Hannah asks you about classes, you respond with as much positivity as you can muster, and after a dull conversation about the food quality, you feel the awkwardness setting in.
 
 You: I should get going, lots of work to get done. I&#39;ll see you around.
 
@@ -83,7 +85,7 @@ Hannah: Of course. Thanks for the company.
 
 You: Back at you.
 
-Better to [[leave|work]] while you&#39;re ahead.</tw-passagedata><tw-passagedata pid="11" name="askherout" tags="" position="500,575" size="100,100">You: Hey, Hannah, would you be interested in getting some dinner tonight? Somewhere that isn&#39;t the dining hall?
+Better to [[leave|work]] while you&#39;re ahead.</tw-passagedata><tw-passagedata pid="11" name="askherout" tags="" position="575,675" size="100,100">You: Hey, Hannah, would you be interested in getting some dinner tonight? Somewhere that isn&#39;t the dining hall?
 
 Oh my gosh. You did it. You asked her out. Wow, and you didn&#39;t even stutter. Who woke up in your bed this morning?
 
@@ -95,15 +97,15 @@ You: Ramen? Six o&#39;clock? I can meet you by your dorm.
 
 Hannah: Sure thing.
 
-Was she blushing? Wow. You never thought this would happen. Since when were you a smooth talker? And since when was today a good day for a [[date night|date]]?</tw-passagedata><tw-passagedata pid="12" name="date" tags="" position="500,700" size="100,100">The rest of your day felt like a blur, and now you were seated across the table from //Hannah//, the girl you&#39;ve been crushing on since freshman year. Wow. She looked really pretty too. 
+Was she blushing? Wow. You never thought this would happen. Since when were you a smooth talker? And since when was today a good day for a [[date night|date]]?</tw-passagedata><tw-passagedata pid="12" name="date" tags="" position="550,825" size="100,100">The rest of your day feels like a blur, and now you were seated across the table from //Hannah//, the girl you&#39;ve been crushing on since freshman year. Wow. She looks really pretty too. 
 
 Hannah: So, to clarify, this is a date, right? I mean, I wore my date dress, so that&#39;s what I was thinking.
 
 You: It was a date before the dress, but with the dress, now it&#39;s definitely a date.
 
-She laughed. She has a really nice laugh. 
+She laughs. She has a really nice laugh. 
 
-(if: $comment is 1)[You: So, where do you see yourself [[after graduation|plans]]?](else-if: $comment is 2)[Hannah: Usually I go to nicer places on dates, but this place is... [[homely]].](else-if: $comment is 3)[You: Tell me about your favorite [[movie]].]</tw-passagedata><tw-passagedata pid="13" name="plans" tags="" position="375,800" size="100,100">Hannah: I would really love to move in to the city. I&#39;ve always wanted to work downtown and live in one of those tall apartment buildings.
+(if: $comment is 1)[You: So, where do you see yourself [[after graduation|plans]]?](else-if: $comment is 2)[Hannah: Usually I go to nicer places on dates, but this place is... [[homely]].](else-if: $comment is 3)[You: Tell me about your favorite [[movie]].]</tw-passagedata><tw-passagedata pid="13" name="plans" tags="" position="525,1225" size="100,100">Hannah: I would really love to move in to the city. I&#39;ve always wanted to work downtown and live in one of those tall apartment buildings.
 
 You blink in surprise. That was not the answer you were expecting.
 
@@ -115,17 +117,17 @@ You&#39;ve spent your whole life planning to move in to a house near your childh
 
 But it is just a first date. Why should you let this get in the way? It&#39;s not like you were planning on asking her to move in with you tonight.
 
-Do you [[move on|moveon]] or is this a [[deal breaker|dealbreaker]]?</tw-passagedata><tw-passagedata pid="14" name="homely" tags="" position="500,825" size="100,100">...Wow. You&#39;ve never heard Hannah talk like that before. //Homely?// You knew her family wasn&#39;t hurting for money, but you didn&#39;t think that she would judge the restaurant so harshly. Or compare you to other dates to your face.
+Do you [[move on|moveon]] or is this a [[deal breaker|dealbreaker]]?</tw-passagedata><tw-passagedata pid="14" name="homely" tags="" position="600,1000" size="100,100">...Wow. You&#39;ve never heard Hannah talk like that before. //Homely?// You knew her family wasn&#39;t hurting for money, but you didn&#39;t think that she would judge the restaurant so harshly. Or compare you to other dates to your face.
 
 She probably didn&#39;t mean to be rude, right? Maybe she is just a little out of touch. You brought her here so you could afford to pay her bill, so what does it matter what she thinks, really? She can&#39;t be upset about free food. 
 
-Do you [[move on|moveon]] or is this a [[deal breaker|dealbreaker]]?</tw-passagedata><tw-passagedata pid="15" name="movie" tags="" position="625,800" size="100,100">Hannah: Oh, I love //Dirty Dancing//, the love story is so inspiring.
+Do you [[move on|moveon]] or is this a [[deal breaker|dealbreaker]]?</tw-passagedata><tw-passagedata pid="15" name="movie" tags="" position="775,850" size="100,100">Hannah: Oh, I love //Dirty Dancing//, the love story is so inspiring.
 
 Ew. You hated //Dirty Dancing//. And you wouldn&#39;t exactly call a romance between a 17-year-old and a 24-year-old &quot;inspiring.&quot; Once, you had talked with your friends about seemingly silly red flags, and you all decided that liking love stories with characters meant to be minors was a big red flag.
 
 But it is kind of silly, right? I mean, it&#39;s just a movie. And maybe she just has a lot of nostalgia and doesn&#39;t really think about the more questionable elements. There are certainly movies that you enjoy that have aged poorly.
 
-Do you [[move on|moveon]] or is this a [[deal breaker|dealbreaker]]?</tw-passagedata><tw-passagedata pid="16" name="moveon" tags="" position="600,975" size="100,100">You quickly change the subject.
+Do you [[move on|moveon]] or is this a [[deal breaker|dealbreaker]]?</tw-passagedata><tw-passagedata pid="16" name="moveon" tags="" position="925,1025" size="100,100">You quickly change the subject.
 
 You: Wait, have you been watching the new //Survivor// season?
 
@@ -133,7 +135,7 @@ You knew Hannah loved //Survivor//, and this would sidetrack her for a while.
 
 Hannah: Oh my gosh, yes, and I cannot believe what Jamie did last episode!
 
-You listened to her rant about the show, nodding where appropriate. For some reason, when your food came out, you didn&#39;t have much of an [[appetite]].</tw-passagedata><tw-passagedata pid="17" name="dealbreaker" tags="" position="425,975" size="100,100">Huh. You certainly never expected the date to go quite like this. Suddenly, the dress and the laugh was less than attractive. It seems so trivial when you think about it, but something deep in your chest is no longer comfortable here.
+You listened to her rant about the show, nodding where appropriate. For some reason, when your food came out, you didn&#39;t have much of an [[appetite]].</tw-passagedata><tw-passagedata pid="17" name="dealbreaker" tags="" position="825,1225" size="100,100">Huh. You certainly never expected the date to go quite like this. Suddenly, the dress and the laugh was less than attractive. It seems so trivial when you think about it, but something deep in your chest is no longer comfortable here.
 
 You fake a phone call, fumbling for your phone and pretending to read a contact off of the screen.
 
@@ -149,19 +151,19 @@ Hannah looked... less surprised than you expected.
 
 Hannah: Sure. Maybe we will.
 
-You nodded, and hurried out of the restaurant, [[not looking back|walkinghome]].</tw-passagedata><tw-passagedata pid="18" name="walkinghome" tags="" position="425,1100" size="100,100">As you walk home, you&#39;re in a bit of a state of shock. You asked a girl you&#39;ve liked for years on a date, and when you saw something that gave you pause, you got yourself out of the situation before it could get worse.
+You nodded, and hurried out of the restaurant, [[not looking back|walkinghome]].</tw-passagedata><tw-passagedata pid="18" name="walkinghome" tags="" position="1175,1275" size="100,100">As you walk home, you&#39;re in a bit of a state of shock. You asked a girl you&#39;ve liked for years on a date, and when you saw something that gave you pause, you got yourself out of the situation before it could get worse.
 
 You&#39;ve made a lot of steps today. You feel like a different person than you did this morning.
 
 You head to bed with [[this thought|landing]].
 
-(set: $day to it +1)</tw-passagedata><tw-passagedata pid="19" name="appetite" tags="" position="600,1100" size="100,100">After a dinner much better than dining hall offerings, you walked Hannah back to her dorm. The date was mostly fine, but you found yourself withdrawing the more Hannah talked. Perhaps you were a bit blinded by your crush. Talking with her one-on-one was not exactly what you expected it would be.
+(set: $day to it +1)</tw-passagedata><tw-passagedata pid="19" name="appetite" tags="" position="1325,1050" size="100,100">After a dinner much better than dining hall offerings, you walk Hannah back to her dorm. The date was mostly fine, but you found yourself withdrawing the more Hannah talked. Perhaps you were a bit blinded by your crush. Talking with her one-on-one was not exactly what you expected it would be.
 
-But, you did enjoy having the company, and you wouldn&#39;t mind going on a second date. You mulled over your feelings as you got into bed, [[thinking of the future|landing]].
+But, you did enjoy having the company, and you wouldn&#39;t mind going on a second date. You mull over your feelings as you get into bed, [[thinking of the future|landing]].
 
-(set: $day to it +1)</tw-passagedata><tw-passagedata pid="20" name="quiet" tags="" position="425,0" size="100,100">While chatting with Logan would be nice, you really should get some work done. You head to your own table and get started.
+(set: $day to it +1)</tw-passagedata><tw-passagedata pid="20" name="quiet" tags="" position="525,25" size="100,100">While chatting with Logan would be nice, you really should get some work done. You head to your own table and get started.
 
-Eventually, you get hungry, and you decide it&#39;s time to head to the [[dining hall|dininghall]].</tw-passagedata><tw-passagedata pid="21" name="invitation" tags="" position="425,150" size="100,100">You head over towards Logan, who takes his headphones off as he spots you.
+Eventually, you get hungry, and you decide it&#39;s time to head to the [[dining hall|dininghall]].</tw-passagedata><tw-passagedata pid="21" name="invitation" tags="" position="900,225" size="100,100">You head over towards Logan, who takes his headphones off as he spots you.
 
 Logan: Hey! What&#39;s up?
 
@@ -171,7 +173,7 @@ Logan: Fantastic, as always. I&#39;m so glad you&#39;re here, I was going to ask
 
 You aren&#39;t really sure what &quot;everyone&quot; entails, but you like most of Logan&#39;s friends. And it would be nice to get a free dinner. 
 
-Do you [[accept the invitation|sure]] or would you rather [[spend the night at home|nothanks]]?</tw-passagedata><tw-passagedata pid="22" name="sure" tags="" position="575,175" size="100,100">You: That sounds awesome, I&#39;m totally in.
+Do you [[accept the invitation|sure]] or would you rather [[spend the night at home|nothanks]]?</tw-passagedata><tw-passagedata pid="22" name="sure" tags="" position="1200,50" size="100,100">You: That sounds awesome, I&#39;m totally in.
 
 Logan&#39;s face lights up, and he holds out his fist for you to bump. You return his gesture.
 
@@ -185,13 +187,13 @@ You smile at his honesty, and take the seat across from him.
 
 You: All good. I&#39;ll get some work done now so we can enjoy tonight.
 
-Logan gives you a thumbs-up and a grin in response. You spend most of your time on calculus homework, but you do dedicate some time to [[recipe searching|dinner]].</tw-passagedata><tw-passagedata pid="23" name="nothanks" tags="" position="550,0" size="100,100">While dinner would be nice, you just don&#39;t think you can fit it in your schedule. 
+Logan gives you a thumbs-up and a grin in response. You spend most of your time on calculus homework, but you do dedicate some time to [[recipe searching|dinner]].</tw-passagedata><tw-passagedata pid="23" name="nothanks" tags="" position="800,25" size="100,100">While dinner would be nice, you just don&#39;t think you can fit it in your schedule. 
 
 You: Thanks for the invite, but I have a lot of work to do today. Hopefully the pork turns out alright.
 
 Logan: If all goes according to plan, you&#39;ll be sorry you missed it, ha. No worries though. I got this whole table, so you can get started on that work here.
 
-You smile, and set your bag down to do just that. After a productive couple hours, your stomach begins to protest, and you say goodbye to Logan so you can head to the [[dining hall|dininghall]].</tw-passagedata><tw-passagedata pid="24" name="dinner" tags="" position="775,50" size="100,100">After a mostly productive day, you carry your (if: $dish is 1)[mac and cheese](else-if: $dish is 2)[potato salad](else-if: $dish is 3)[chocolate chip cookies] to Logan&#39;s house. You&#39;re a bit nervous, as you don&#39;t know his friends too well, but today will have to be a day to break out of your shell. 
+You smile, and set your bag down to do just that. After a productive couple hours, your stomach begins to protest, and you say goodbye to Logan so you can head to the [[dining hall|dininghall]].</tw-passagedata><tw-passagedata pid="24" name="dinner" tags="" position="1650,25" size="100,100">After a mostly productive day, you carry your (if: $dish is 1)[mac and cheese](else-if: $dish is 2)[potato salad](else-if: $dish is 3)[chocolate chip cookies] to Logan&#39;s house. You&#39;re a bit nervous, as you don&#39;t know his friends too well, but today will have to be a day to break out of your shell. 
 
 Logan opens the door and greets you excitedly as the smell of barbeque sauce and fresh rolls hits your nose. He takes your container of (if: $dish is 1)[mac and cheese](else-if: $dish is 2)[potato salad](else-if: $dish is 3)[chocolate chip cookies] and you follow him inside.
 
@@ -203,12 +205,15 @@ Niall gets up from the table, and makes eye contact with you.
 
 Niall: I&#39;m going out for a smoke, care to join?
 
-Do you [[join Niall|smoke]] or [[head home|earlynight]]?</tw-passagedata><tw-passagedata pid="25" name="smoke" tags="" position="750,200" size="100,100">You don&#39;t usually smoke, but you are interested in getting to know Niall a bit more.
+Do you [[join Niall|smoke]] or [[head home|earlynight]]?</tw-passagedata><tw-passagedata pid="25" name="smoke" tags="" position="1425,200" size="100,100">You don&#39;t usually smoke, but you are interested in getting to know Niall a bit more.
 
 You: Sure, I&#39;ll come with.
 
 Niall leads you to Logan&#39;s back patio, where a well-loved sofa sits against the outside wall. You both sit down, and Niall takes out a cigarette and a lighter.
 
+&lt;body&gt;
+&lt;img src=&quot;https://akuck20.github.io/twineprojectkuck/images/niall.png&quot;&gt;
+&lt;/body&gt;
 Niall: Man, I&#39;m so ready to be done with school. It&#39;s so exhausting. And I just feel stuck here, y&#39;know?
 
 You: Yeah, it&#39;s a weird adult limbo.
@@ -227,7 +232,7 @@ You feel yourself turn red, but Niall just laughs.
 
 Niall: Do you think you know who you&#39;re meant to be?
 
-You think for a moment. Do you [[know]]? Or are you [[still looking|stilllooking]]?</tw-passagedata><tw-passagedata pid="26" name="earlynight" tags="" position="975,150" size="100,100">You: No thanks, I&#39;d better be going.
+You think for a moment. Do you [[know]]? Or are you [[still looking|stilllooking]]?</tw-passagedata><tw-passagedata pid="26" name="earlynight" tags="" position="1900,125" size="100,100">You: No thanks, I&#39;d better be going.
 
 Logan: Hey, thanks for coming dude, the food was phenomenal.
 
@@ -239,7 +244,7 @@ As you return to your dorm, part of you wishes you would have stayed. While the 
 
 Well, it&#39;s a bit late for that now. And as you climb into bed, you tell yourself that there is always [[tomorrow|landing]].
 
-(set: $day to it +1)</tw-passagedata><tw-passagedata pid="27" name="know" tags="" position="750,325" size="100,100">You consider Niall&#39;s question. You know what you want, you know who are you. What more could there be to know?
+(set: $day to it +1)</tw-passagedata><tw-passagedata pid="27" name="know" tags="" position="1250,225" size="100,100">You consider Niall&#39;s question. You know what you want, you know who are you. What more could there be to know?
 
 You: I think I do. And I&#39;m ready to be the person I&#39;m meant to be.
 
@@ -249,7 +254,7 @@ You know that you are young, and life feels daunting and strange. But this deep 
 
 [[And yet...|landing]]
 
-(set: $day to it +1)</tw-passagedata><tw-passagedata pid="28" name="stilllooking" tags="" position="875,325" size="100,100">You sit with Niall&#39;s question, turning it over and over. As much as you tell yourself you know what you want, there is a question deep down, wondering if what you want is the same as what you are.
+(set: $day to it +1)</tw-passagedata><tw-passagedata pid="28" name="stilllooking" tags="" position="1675,350" size="100,100">You sit with Niall&#39;s question, turning it over and over. As much as you tell yourself you know what you want, there is a question deep down, wondering if what you want is the same as what you are.
 
 You: I don&#39;t think so. I don&#39;t know who that person is yet. Who I&#39;m meant to be.
 
